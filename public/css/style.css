@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem{
+    height: 250px;
+    width: auto;
+}
+
+#container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+input{
+    width: 70%;
+}
+
+#btn_generate{
+
+}
